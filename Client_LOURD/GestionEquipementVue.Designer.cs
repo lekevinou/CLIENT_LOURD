@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // GestionEquipementVue
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(337, 297);
+            this.Name = "GestionEquipementVue";
             this.Text = "GestionEquipementVue";
+            this.Load += new System.EventHandler(this.GestionEquipementVue_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

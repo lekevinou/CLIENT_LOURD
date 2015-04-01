@@ -16,5 +16,10 @@ namespace Client_LOURD
         {
             InitializeComponent();
         }
+
+        private void VoirEquipement_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

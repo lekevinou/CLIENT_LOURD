@@ -65,10 +65,30 @@
     <Compile Include="ajoutClient.Designer.cs">
       <DependentUpon>ajoutClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="equipement.cs" />
+    <Compile Include="equipementManager.cs" />
     <Compile Include="gamilonbaseDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>gamilonbaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipement.Designer.cs">
+      <DependentUpon>GestionEquipement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipementAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipementAjout.Designer.cs">
+      <DependentUpon>GestionEquipementAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipementVue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipementVue.Designer.cs">
+      <DependentUpon>GestionEquipementVue.cs</DependentUpon>
     </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
@@ -98,6 +118,15 @@
     </Compile>
     <EmbeddedResource Include="ajoutClient.resx">
       <DependentUpon>ajoutClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipement.resx">
+      <DependentUpon>GestionEquipement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipementAjout.resx">
+      <DependentUpon>GestionEquipementAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipementVue.resx">
+      <DependentUpon>GestionEquipementVue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>

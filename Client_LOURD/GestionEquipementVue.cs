@@ -16,5 +16,10 @@ namespace Client_LOURD
         {
             InitializeComponent();
         }
+
+        private void GestionEquipementVue_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
