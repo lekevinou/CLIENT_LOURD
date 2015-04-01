@@ -3,3 +3,8 @@ C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
