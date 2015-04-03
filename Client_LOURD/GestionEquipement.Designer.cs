@@ -44,6 +44,7 @@
             this.AjouterEquipement.TabIndex = 1;
             this.AjouterEquipement.Text = "Nouvel équipement";
             this.AjouterEquipement.UseVisualStyleBackColor = false;
+            this.AjouterEquipement.Click += new System.EventHandler(this.AjouterEquipement_Click);
             // 
             // btnRetour
             // 
@@ -56,6 +57,7 @@
             this.btnRetour.TabIndex = 4;
             this.btnRetour.Text = "Retour";
             this.btnRetour.UseVisualStyleBackColor = false;
+            this.btnRetour.Click += new System.EventHandler(this.btnRetour_Click);
             // 
             // VoirEquipement
             // 

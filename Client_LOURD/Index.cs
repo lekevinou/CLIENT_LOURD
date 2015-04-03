@@ -21,7 +21,7 @@ namespace Client_LOURD
 
         private void btn_ajouterClient_Click(object sender, EventArgs e)
         {
-            ajoutClient AjouterClient = new ajoutClient();
+            gestionClientAjout AjouterClient = new gestionClientAjout();
             AjouterClient.Show(); // ouvre la fenêtre ajoutClient.cs
         }
 
@@ -36,7 +36,7 @@ namespace Client_LOURD
 
         private void vueClient_btn_Click(object sender, EventArgs e)
         {
-            viewClient ViewClient = new viewClient();
+            gestionClientView ViewClient = new gestionClientView();
             ViewClient.Show();
         }
 
@@ -44,6 +44,26 @@ namespace Client_LOURD
         {
             viewClientReservation ViewClientReservation = new viewClientReservation();
             ViewClientReservation.Show();
+        }
+
+        private void btn_EquipementSup_Click(object sender, EventArgs e)
+        {
+            // Ouverture de la page GestionEquipement.cs.
+            GestionEquipement f = new GestionEquipement();
+            this.Hide();
+            f.ShowDialog();
+            // Fermeture de la page actuelle.
+            this.Close();
+        }
+
+        private void _Click(object sender, EventArgs e)
+        {
+            // Ouverture le la gestion des client
+            gestionClient f = new gestionClient();
+            this.Hide();
+            f.ShowDialog();
+            // Fermeture de la fenêtre actuelle.
+            this.Close();
         }
     }
 }

@@ -59,14 +59,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ajoutClient.cs">
+    <Compile Include="gestionClientAjout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ajoutClient.Designer.cs">
-      <DependentUpon>ajoutClient.cs</DependentUpon>
+    <Compile Include="gestionClientAjout.Designer.cs">
+      <DependentUpon>gestionClientAjout.cs</DependentUpon>
     </Compile>
     <Compile Include="equipement.cs" />
     <Compile Include="equipementManager.cs" />
+    <Compile Include="gestionClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClient.Designer.cs">
+      <DependentUpon>gestionClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="gamilonbaseDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -104,11 +110,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="viewClient.cs">
+    <Compile Include="gestionClientView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewClient.Designer.cs">
-      <DependentUpon>viewClient.cs</DependentUpon>
+    <Compile Include="gestionClientView.Designer.cs">
+      <DependentUpon>gestionClientView.cs</DependentUpon>
     </Compile>
     <Compile Include="viewClientReservation.cs">
       <SubType>Form</SubType>
@@ -116,8 +122,11 @@
     <Compile Include="viewClientReservation.Designer.cs">
       <DependentUpon>viewClientReservation.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ajoutClient.resx">
-      <DependentUpon>ajoutClient.cs</DependentUpon>
+    <EmbeddedResource Include="gestionClientAjout.resx">
+      <DependentUpon>gestionClientAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionClient.resx">
+      <DependentUpon>gestionClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionEquipement.resx">
       <DependentUpon>GestionEquipement.cs</DependentUpon>
@@ -144,8 +153,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="viewClient.resx">
-      <DependentUpon>viewClient.cs</DependentUpon>
+    <EmbeddedResource Include="gestionClientView.resx">
+      <DependentUpon>gestionClientView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewClientReservation.resx">
       <DependentUpon>viewClientReservation.cs</DependentUpon>

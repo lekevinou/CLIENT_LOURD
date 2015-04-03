@@ -19,7 +19,26 @@ namespace Client_LOURD
 
         private void VoirEquipement_Click(object sender, EventArgs e)
         {
+            GestionEquipementVue f = new GestionEquipementVue();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
+        }
 
+        private void btnRetour_Click(object sender, EventArgs e)
+        {
+            Index f = new Index();
+            this.Hide(); // Ouvre la page Index.cs.
+            f.ShowDialog();
+            this.Close(); // Ferme la page GestionEquipement.cs, fenêtre actuelle.
+        }
+
+        private void AjouterEquipement_Click(object sender, EventArgs e)
+        {
+            GestionEquipementAjout f = new GestionEquipementAjout();
+            this.Hide();
+            f.ShowDialog();
+            this.Close();
         }
     }
 }

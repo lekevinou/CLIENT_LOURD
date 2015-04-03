@@ -28,46 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_ajouterClient = new System.Windows.Forms.Button();
-            this.vueClient_btn = new System.Windows.Forms.Button();
             this.btn_viewReservation = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.labelMagasin = new System.Windows.Forms.Label();
             this.labelMagasinAffiche = new System.Windows.Forms.Label();
+            this.btn_EquipementSup = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btn_ajouterClient
-            // 
-            this.btn_ajouterClient.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_ajouterClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ajouterClient.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_ajouterClient.Location = new System.Drawing.Point(57, 146);
-            this.btn_ajouterClient.Name = "btn_ajouterClient";
-            this.btn_ajouterClient.Size = new System.Drawing.Size(165, 55);
-            this.btn_ajouterClient.TabIndex = 0;
-            this.btn_ajouterClient.Text = "Nouveau client";
-            this.btn_ajouterClient.UseVisualStyleBackColor = false;
-            this.btn_ajouterClient.Click += new System.EventHandler(this.btn_ajouterClient_Click);
-            // 
-            // vueClient_btn
-            // 
-            this.vueClient_btn.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.vueClient_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vueClient_btn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.vueClient_btn.Location = new System.Drawing.Point(321, 146);
-            this.vueClient_btn.Name = "vueClient_btn";
-            this.vueClient_btn.Size = new System.Drawing.Size(165, 55);
-            this.vueClient_btn.TabIndex = 2;
-            this.vueClient_btn.Text = "Liste des clients";
-            this.vueClient_btn.UseVisualStyleBackColor = false;
-            this.vueClient_btn.Click += new System.EventHandler(this.vueClient_btn_Click);
             // 
             // btn_viewReservation
             // 
             this.btn_viewReservation.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn_viewReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_viewReservation.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btn_viewReservation.Location = new System.Drawing.Point(560, 146);
+            this.btn_viewReservation.Location = new System.Drawing.Point(316, 149);
             this.btn_viewReservation.Name = "btn_viewReservation";
             this.btn_viewReservation.Size = new System.Drawing.Size(165, 55);
             this.btn_viewReservation.TabIndex = 3;
@@ -100,6 +74,26 @@
             this.labelMagasinAffiche.Size = new System.Drawing.Size(0, 13);
             this.labelMagasinAffiche.TabIndex = 6;
             // 
+            // btn_EquipementSup
+            // 
+            this.btn_EquipementSup.Location = new System.Drawing.Point(520, 149);
+            this.btn_EquipementSup.Name = "btn_EquipementSup";
+            this.btn_EquipementSup.Size = new System.Drawing.Size(165, 52);
+            this.btn_EquipementSup.TabIndex = 7;
+            this.btn_EquipementSup.Text = "Equipements supplémentaires";
+            this.btn_EquipementSup.UseVisualStyleBackColor = true;
+            this.btn_EquipementSup.Click += new System.EventHandler(this.btn_EquipementSup_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(122, 149);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(165, 55);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Gestion des clients";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this._Click);
+            // 
             // Index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -107,12 +101,12 @@
             this.BackgroundImage = global::Client_LOURD.Properties.Resources.logoGamilon;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(799, 294);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btn_EquipementSup);
             this.Controls.Add(this.labelMagasinAffiche);
             this.Controls.Add(this.labelMagasin);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_viewReservation);
-            this.Controls.Add(this.vueClient_btn);
-            this.Controls.Add(this.btn_ajouterClient);
             this.Name = "Index";
             this.Text = "Gamilon";
             this.Load += new System.EventHandler(this.Index_Load);
@@ -123,11 +117,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_ajouterClient;
-        private System.Windows.Forms.Button vueClient_btn;
         private System.Windows.Forms.Button btn_viewReservation;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label labelMagasin;
         private System.Windows.Forms.Label labelMagasinAffiche;
+        private System.Windows.Forms.Button btn_EquipementSup;
+        private System.Windows.Forms.Button button1;
     }
 }

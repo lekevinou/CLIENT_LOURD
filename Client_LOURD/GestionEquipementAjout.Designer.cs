@@ -54,6 +54,7 @@
             this.voirEquipement.TabIndex = 39;
             this.voirEquipement.Text = "Voir les équipements";
             this.voirEquipement.UseVisualStyleBackColor = false;
+            this.voirEquipement.Click += new System.EventHandler(this.voirEquipement_Click);
             // 
             // label5
             // 
@@ -157,6 +158,7 @@
             this.btnBack.TabIndex = 28;
             this.btnBack.Text = "Retour";
             this.btnBack.UseVisualStyleBackColor = false;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // btnAjouterClient
             // 
@@ -169,6 +171,7 @@
             this.btnAjouterClient.TabIndex = 27;
             this.btnAjouterClient.Text = "Ajouter";
             this.btnAjouterClient.UseVisualStyleBackColor = false;
+            this.btnAjouterClient.Click += new System.EventHandler(this.btnAjouterClient_Click);
             // 
             // GestionEquipementAjout
             // 
