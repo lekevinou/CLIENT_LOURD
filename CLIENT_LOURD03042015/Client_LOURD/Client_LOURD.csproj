@@ -59,6 +59,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="VueJournee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VueJournee.Designer.cs">
+      <DependentUpon>VueJournee.cs</DependentUpon>
+    </Compile>
     <Compile Include="gestionClientAjout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="viewClientReservation.resx">
       <DependentUpon>viewClientReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueJournee.resx">
+      <DependentUpon>VueJournee.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="gamilonbaseDataSet1.xsc">
       <DependentUpon>gamilonbaseDataSet1.xsd</DependentUpon>

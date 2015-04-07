@@ -44,5 +44,11 @@ namespace Client_LOURD
             // Fermeture de la page actuelle.
             this.Close();
         }
+
+        private void btn_vue_journee_Click(object sender, EventArgs e)
+        {
+            VueJournee vueJournee = new VueJournee();
+            vueJournee.Show();
+        }
     }
 }

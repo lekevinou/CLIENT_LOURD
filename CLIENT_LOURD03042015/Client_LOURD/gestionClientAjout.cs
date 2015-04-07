@@ -47,8 +47,9 @@ namespace Client_LOURD
                 string adr2 = adr2Client.Text;
                 string tel = telClient.Text;
                 string mail = mailClient.Text;
+                int id_ville = 1;
 
-                client unClient = new client(0, nom, prenom, adr1, adr2, tel, mail); //On crée un nouveau client avec les informations rentrées par l'utilisateur
+                client unClient = new client(0, nom, prenom, adr1, adr2, tel, mail, id_ville); //On crée un nouveau client avec les informations rentrées par l'utilisateur
                 clientManager clientManager = new clientManager(); // On crée un nouveau clientManager qui va gérer les requêtes.
                 clientManager.addClient(unClient); //On appelle la methode addClient avec le client que nous venons de crée en paramètre
                 // La méthode va alors se charger d'ajouter en bdd le client.

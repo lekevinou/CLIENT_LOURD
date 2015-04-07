@@ -31,6 +31,7 @@
             this.vueClient_btn = new System.Windows.Forms.Button();
             this.btn_ajouterClient = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_vue_journee = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // vueClient_btn
@@ -69,11 +70,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btn_vue_journee
+            // 
+            this.btn_vue_journee.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn_vue_journee.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_vue_journee.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btn_vue_journee.Location = new System.Drawing.Point(398, 34);
+            this.btn_vue_journee.Name = "btn_vue_journee";
+            this.btn_vue_journee.Size = new System.Drawing.Size(132, 55);
+            this.btn_vue_journee.TabIndex = 6;
+            this.btn_vue_journee.Text = "Test vue emploi du temps";
+            this.btn_vue_journee.UseVisualStyleBackColor = false;
+            this.btn_vue_journee.Click += new System.EventHandler(this.btn_vue_journee_Click);
+            // 
             // gestionClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 152);
+            this.ClientSize = new System.Drawing.Size(559, 152);
+            this.Controls.Add(this.btn_vue_journee);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.vueClient_btn);
             this.Controls.Add(this.btn_ajouterClient);
@@ -88,5 +103,6 @@
         private System.Windows.Forms.Button vueClient_btn;
         private System.Windows.Forms.Button btn_ajouterClient;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_vue_journee;
     }
 }

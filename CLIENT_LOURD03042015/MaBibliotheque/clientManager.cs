@@ -52,7 +52,8 @@ namespace MaBibliotheque
             string adr2 = reader["adr_client_l2"].ToString();
             string tel_client = reader["tel_client"].ToString();
             string mail_client = reader["mail_client"].ToString();
-            client unClient = new client(id, nom, prenom, adr1, adr2, tel_client, mail_client);
+            int cp_client = Convert.ToInt32(reader["id_ville"]);
+            client unClient = new client(id, nom, prenom, adr1, adr2, tel_client, mail_client, cp_client);
             //clientList.Add(reader.GetValue(0).ToString());
             clientList.Add(unClient);
             reader.Close();
@@ -83,7 +84,8 @@ namespace MaBibliotheque
                  string adr2 = reader["adr_client_l2"].ToString();
                  string tel_client = reader["tel_client"].ToString();
                  string mail_client = reader["mail_client"].ToString();
-                 client unClient = new client(id, nom, prenom, adr1, adr2, tel_client, mail_client);
+                 int cp_client = Convert.ToInt32(reader["id_ville"]);
+                 client unClient = new client(id, nom, prenom, adr1, adr2, tel_client, mail_client, cp_client);
                  clientList.Add(unClient);
              }
              reader.Close();
