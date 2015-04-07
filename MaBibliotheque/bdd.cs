@@ -10,7 +10,8 @@ namespace MaBibliotheque
 {
     public class bdd
     {
-        public SqlConnection MaConnection = new SqlConnection(@"Data Source=KEVIN-TOSH;Initial Catalog=gamilonbase;Integrated Security=True");
+        //public SqlConnection MaConnection = new SqlConnection(@"Data Source=KEVIN-TOSH;Initial Catalog=gamilonbase;Integrated Security=True");
+        public SqlConnection MaConnection = new SqlConnection(@"Data Source=PC-THOMAS;Initial Catalog=gamilonbase;Integrated Security=True");
         public SqlDataReader dr;
         public string req;
     }

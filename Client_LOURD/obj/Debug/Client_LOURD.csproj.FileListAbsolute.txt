@@ -71,3 +71,23 @@ C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
 C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe.config
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.exe
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.pdb
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.pdb
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientAjout.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientView.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
