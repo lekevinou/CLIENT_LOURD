@@ -60,11 +60,12 @@ namespace MaBibliotheque
         //    return unClient;
         //}
 
+        
         public List<salle> getListSalles()
         {
             string req;
             req = " SELECT * FROM salles s LEFT JOIN sallerepetition sr ON s.id_salle = sr.id_salle LEFT JOIN salleconcert sc ON s.id_salle = sc.id_salle";
-         
+            //Test 
             this.maConnection.Open();
             List<salle> sallesList = new List<salle>();
             SqlCommand cmd = new SqlCommand(req, maConnection);
