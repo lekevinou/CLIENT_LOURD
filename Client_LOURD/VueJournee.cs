@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MaBibliotheque;
 
 namespace Client_LOURD
 {
@@ -19,8 +20,20 @@ namespace Client_LOURD
 
         private void VueJournee_Load(object sender, EventArgs e)
         {
-            //string Test = "Test";
+            salleManager salleManager = new salleManager();
+            List<salle> sallesList = new List<salle>();
+            sallesList = salleManager.getListSalles();
+            int test = 0;
             datagridview_ParJour.Columns.Add("Salle1", "Salle 1");
+            foreach(salle uneSalle in sallesList)
+            {
+                //test++;
+                //MessageBox.Show(uneSalle.Libelle_salle);
+                datagridview_ParJour.Columns.Add(uneSalle.Libelle_salle, uneSalle.Libelle_salle.ToString().ToLower());
+            }
+            MessageBox.Show(test.ToString());
+            //string Test = "Test";
+            
             //foreach (DataGridViewRow row in datagridview_ParJour.Rows)
             //{
             //    DataGridViewCellStyle monStyle = new DataGridViewCellStyle(datagridview_ParJour.Columns[0].DefaultCellStyle);

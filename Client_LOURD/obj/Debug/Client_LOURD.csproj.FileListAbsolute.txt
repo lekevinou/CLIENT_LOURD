@@ -1,0 +1,73 @@
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\bin\Debug\Client_LOURD.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.ajoutClient.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClient.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
+E:\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe.config
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.exe
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.pdb
+E:\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe
+E:\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.pdb
+E:\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.pdb
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientAjout.resources
+E:\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientView.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe.config
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.exe
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.pdb
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.exe
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\bin\Debug\Client_LOURD.pdb
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.dll
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\bin\Debug\MaBibliotheque.pdb
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csprojResolveAssemblyReference.cache
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientAjout.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientView.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
+D:\EpsiB2\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\bin\Debug\Client_LOURD.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\bin\Debug\Client_LOURD.exe
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\bin\Debug\Client_LOURD.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\bin\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\bin\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.gestionClientAjout.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.login.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.gestionClientView.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
