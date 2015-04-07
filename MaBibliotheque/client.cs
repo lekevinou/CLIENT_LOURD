@@ -8,9 +8,10 @@ namespace MaBibliotheque
 {
     public class client
     {
-        int id;
+        int id, id_ville;
+
         string tel, prenom, nom, adresse1, adresse2, mail;
-        public client(int p_id, string p_nom, string p_prenom, string p_adr1, string p_adr2, string p_tel, string p_mail)
+        public client(int p_id, string p_nom, string p_prenom, string p_adr1, string p_adr2, string p_tel, string p_mail, int p_id_ville)
         {
             this.id = p_id;
             this.prenom = p_prenom;
@@ -19,6 +20,7 @@ namespace MaBibliotheque
             this.adresse2 = p_adr2;
             this.tel = p_tel;
             this.mail = p_mail;
+            this.id_ville = p_id_ville;
 
         }
         public int Id
@@ -56,6 +58,11 @@ namespace MaBibliotheque
         {
             get { return prenom; }
             set { prenom = value; }
+        }
+        public int Id_ville
+        {
+            get { return id_ville; }
+            set { id_ville = value; }
         }
 
     }
