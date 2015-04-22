@@ -11,13 +11,13 @@ namespace MaBibliotheque
         //int id;
         string nom, prix, marque, reference, type;
 
-        public equipement(string p_nom, string p_prix, string p_marque, string p_reference, string p_type)
+        public equipement(string p_nom, string p_prix,string p_reference, string p_marque, string p_type)
         {
             //this.id = p_id;
             this.nom = p_nom;
             this.prix = p_prix;
-            this.marque = p_marque;
             this.reference = p_reference;
+            this.marque = p_marque;
             this.type = p_type;
         }
 

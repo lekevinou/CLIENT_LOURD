@@ -18,3 +18,8 @@ D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibl
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb

@@ -43,12 +43,12 @@ namespace Client_LOURD
 
                 string nom = textBoxNom.Text;
                 string prix = textBoxPrix.Text;
-                string marque = textBoxMarque.Text;
                 string reference = textBoxReference.Text;
+                string marque = textBoxMarque.Text;
                 string type = textBoxType.Text;
 
 
-                equipement unEquipement = new equipement(nom, prix, marque, reference, type); //On crée un nouvel equipement avec les informations rentrées par l'utilisateur.
+                equipement unEquipement = new equipement(nom, prix, reference, marque, type); //On crée un nouvel equipement avec les informations rentrées par l'utilisateur.
                 equipementManager equipementManager = new equipementManager(); // On crée un nouveau clientManager qui va gérer les requêtes.
                 equipementManager.addEquipement(unEquipement); //On appelle la methode addEquipement avec l'equipement que nous venons de créer en paramètre.
                 // La méthode va alors se charger d'ajouter en bdd l'équipement.

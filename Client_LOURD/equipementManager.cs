@@ -29,7 +29,7 @@ namespace MaBibliotheque
             string type = unEquipement.Type;
 
             // Insertion d'une requêtte SQL permettant l'insertion;
-            string req = "INSERT INTO EQUIPEMENT VALUES('" + nom + "','" + prix + "','" + marque + "','" + reference + "','" + type + "')";
+            string req = "INSERT INTO EQUIPEMENT VALUES('" + nom + "','" + prix + "','" + reference + "','" + marque + "','" + type + "')";
             SqlCommand cmd = new SqlCommand(req, maConnection);
             SqlDataReader reader = cmd.ExecuteReader();
             //Fermeture de la connexion

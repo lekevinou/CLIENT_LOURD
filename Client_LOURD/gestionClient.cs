@@ -20,7 +20,7 @@ namespace Client_LOURD
         private void button1_Click(object sender, EventArgs e)
         {
             // Ouverture de la page GestionEquipementVue.cs.
-            GestionEquipementVue f = new GestionEquipementVue();
+            Index f = new Index();
             this.Hide();
             f.ShowDialog();
             // Fermeture de la page actuelle.
