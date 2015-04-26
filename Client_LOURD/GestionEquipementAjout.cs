@@ -24,7 +24,7 @@ namespace Client_LOURD
         private void voirEquipement_Click(object sender, EventArgs e)
         {
             // Ouverture de la page GestionEquipementVue.cs.
-            GestionEquipementVue f = new GestionEquipementVue();
+            btnAjouterEquipement f = new btnAjouterEquipement();
             this.Hide();
             // Fermeture de la page actuelle.
             f.ShowDialog();

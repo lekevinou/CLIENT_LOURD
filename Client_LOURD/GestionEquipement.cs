@@ -19,7 +19,7 @@ namespace Client_LOURD
 
         private void VoirEquipement_Click(object sender, EventArgs e)
         {
-            GestionEquipementVue f = new GestionEquipementVue();
+            btnAjouterEquipement f = new btnAjouterEquipement();
             this.Hide();
             f.ShowDialog();
             this.Close();

@@ -119,5 +119,10 @@ namespace Client_LOURD
         {
             testTextBox.Text = dataGridClient.CurrentRow.Cells[0].Value.ToString();
         }
+
+        private void text_rechercheClient_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

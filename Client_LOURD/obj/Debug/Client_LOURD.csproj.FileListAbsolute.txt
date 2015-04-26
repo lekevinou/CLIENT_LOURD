@@ -103,7 +103,6 @@ E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientAj
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
-E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
@@ -111,3 +110,4 @@ E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientVi
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
 E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+E:\CLIENT_LOURD\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.btnAjouterEquipement.resources

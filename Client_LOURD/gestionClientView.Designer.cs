@@ -89,6 +89,7 @@
             this.text_rechercheClient.Name = "text_rechercheClient";
             this.text_rechercheClient.Size = new System.Drawing.Size(100, 20);
             this.text_rechercheClient.TabIndex = 3;
+            this.text_rechercheClient.TextChanged += new System.EventHandler(this.text_rechercheClient_TextChanged);
             // 
             // label1
             // 
@@ -140,7 +141,7 @@
             // 
             // testTextBox
             // 
-            this.testTextBox.Location = new System.Drawing.Point(643, 445);
+            this.testTextBox.Location = new System.Drawing.Point(600, 415);
             this.testTextBox.Name = "testTextBox";
             this.testTextBox.Size = new System.Drawing.Size(100, 20);
             this.testTextBox.TabIndex = 9;
@@ -202,7 +203,7 @@
             this.Mail_DataGridView.Name = "Mail_DataGridView";
             this.Mail_DataGridView.ReadOnly = true;
             // 
-            // viewClient
+            // gestionClientView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -217,7 +218,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.text_rechercheClient);
             this.Controls.Add(this.button1);
-            this.Name = "viewClient";
+            this.Name = "gestionClientView";
             this.Text = "Visualisation des clients";
             this.Load += new System.EventHandler(this.viewClient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.clientBindingSource)).EndInit();
