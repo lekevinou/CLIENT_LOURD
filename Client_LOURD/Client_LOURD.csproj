@@ -71,8 +71,6 @@
     <Compile Include="gestionClientAjout.Designer.cs">
       <DependentUpon>gestionClientAjout.cs</DependentUpon>
     </Compile>
-    <Compile Include="equipement.cs" />
-    <Compile Include="equipementManager.cs" />
     <Compile Include="gestionClient.cs">
       <SubType>Form</SubType>
     </Compile>

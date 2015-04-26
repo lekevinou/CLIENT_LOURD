@@ -49,7 +49,7 @@ namespace Client_LOURD
 
 
                 equipement unEquipement = new equipement(nom, prix, reference, marque, type); //On crée un nouvel equipement avec les informations rentrées par l'utilisateur.
-                equipementManager equipementManager = new equipementManager(); // On crée un nouveau clientManager qui va gérer les requêtes.
+                equipementManager equipementManager = new equipementManager(); // On crée un nouveau equipementManager qui va gérer les requêtes.
                 equipementManager.addEquipement(unEquipement); //On appelle la methode addEquipement avec l'equipement que nous venons de créer en paramètre.
                 // La méthode va alors se charger d'ajouter en bdd l'équipement.
                 MessageBox.Show("L'équipement a été ajouté avec succès");

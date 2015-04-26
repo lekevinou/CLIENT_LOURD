@@ -42,6 +42,8 @@
     <Compile Include="bdd.cs" />
     <Compile Include="client.cs" />
     <Compile Include="clientManager.cs" />
+    <Compile Include="equipement.cs" />
+    <Compile Include="equipementManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="reservation.cs" />
     <Compile Include="reservationManager.cs" />
