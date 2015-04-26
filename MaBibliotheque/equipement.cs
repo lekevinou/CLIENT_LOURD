@@ -8,10 +8,10 @@ namespace MaBibliotheque
 {
     public class equipement
     {
-        int id;
+        int id, id_ville;
         string nom, prix, marque, reference, type;
 
-        public equipement(int p_id, string p_nom, string p_prix,string p_reference, string p_marque, string p_type)
+        public equipement(int p_id, string p_nom, string p_prix, string p_reference, string p_marque, string p_type)
         {
             this.id = p_id;
             this.nom = p_nom;
@@ -52,5 +52,6 @@ namespace MaBibliotheque
             get { return type; }
             set { type = value; }
         }
+       
     }
 }

@@ -80,6 +80,7 @@ namespace MaBibliotheque
                  string reference = reader["reference_equipement"].ToString();
                  string marque = reader["marque_equipement"].ToString();
                  string type = reader["type_equipement"].ToString();
+                 int cp_client = Convert.ToInt32(reader["id_ville"]);
                  equipement unEquipement = new equipement( id, nom, prix, reference, marque, type);
                  equipementList.Add(unEquipement);
              }
