@@ -8,7 +8,7 @@ namespace MaBibliotheque
 {
     public class equipement
     {
-        int id, id_ville;
+        int id;
         string nom, prix, marque, reference, type;
 
         public equipement(int p_id, string p_nom, string p_prix, string p_reference, string p_marque, string p_type)
