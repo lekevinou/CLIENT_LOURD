@@ -35,29 +35,27 @@ namespace MaBibliotheque
             //Fermeture de la connexion
             this.maConnection.Close();
         }
-            public client getUnclient(int id)
+            public equipement getUnEquipement(int id)
         {
-            string req = "SELECT * FROM CLIENT c WHERE c.id_client = '" + id + "' ";
+            string req = "SELECT * FROM EQUIPEMENT c WHERE c.id_equipment = '" + id + "' ";
             this.maConnection.Open();
-            List<client> clientList = new List<client>();
+            List<equipement> equipementList = new List<equipement>();
 
             SqlCommand cmd = new SqlCommand(req, maConnection);
             SqlDataReader reader = cmd.ExecuteReader();
             reader.Read();
-            //int id = (int)reader["id_client"];
-            string nom = reader["nom_client"].ToString();
-            string prenom = reader["prenom_client"].ToString();
-            string adr1 = reader["adr_client_l1"].ToString();
-            string adr2 = reader["adr_client_l2"].ToString();
-            string tel_client = reader["tel_client"].ToString();
-            string mail_client = reader["mail_client"].ToString();
-            int cp_client = Convert.ToInt32(reader["id_ville"]);
-            client unClient = new client(id, nom, prenom, adr1, adr2, tel_client, mail_client, cp_client);
-            //clientList.Add(reader.GetValue(0).ToString());
-            clientList.Add(unClient);
+            //int id = (int)reader["id_equipement"];
+            string nom = reader["nom_equipement"].ToString();
+            string prix = reader["prix_equipement"].ToString();
+            string reference = reader["reference_equipement"].ToString();
+            string marque = reader["marque_equipement"].ToString();
+            string type = reader["type_equipement"].ToString();
+            equipement unEquipement = new equipement(id, nom, prix, reference, marque, type);
+            //equipementList.Add(reader.GetValue(0).ToString());
+            equipementList.Add(unEquipement);
             reader.Close();
             this.maConnection.Close();
-            return unClient;
+            return unEquipement;
         }
 
         public List<equipement> getListEquipement(string critere)
