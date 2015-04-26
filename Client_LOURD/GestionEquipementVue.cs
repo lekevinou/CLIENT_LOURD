@@ -50,19 +50,18 @@ namespace Client_LOURD
             equipementManager equipementManager = new equipementManager();
             List<equipement> equipementList = new List<equipement>(); // On crée la liste de client
             equipementList = equipementManager.getListEquipement(critere); // La liste se compose de la liste clientList retourné par le clientManager
-        
+
 
             dataGridClient.Rows.Clear();
             foreach (equipement unEquipement in equipementList)
             {
-                dataGridClient.Rows.Add(unEquipement.Nom,
-                    unEquipement.prix,
-                    unEquipement.reference,
-                    unEquipement.marque,
-                    unEquipement.type);
+                dataGridClient.Rows.Add(unEquipement.Id,
+                    unEquipement.Nom,
+                    unEquipement.Prix,
+                    unEquipement.Reference,
+                    unEquipement.Marque,
+                    unEquipement.Type);
             }
-        }
-
         }
     }
 }

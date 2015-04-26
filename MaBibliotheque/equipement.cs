@@ -8,12 +8,12 @@ namespace MaBibliotheque
 {
     public class equipement
     {
-        //int id;
+        int id;
         string nom, prix, marque, reference, type;
 
-        public equipement(string p_nom, string p_prix,string p_reference, string p_marque, string p_type)
+        public equipement(int p_id, string p_nom, string p_prix,string p_reference, string p_marque, string p_type)
         {
-            //this.id = p_id;
+            this.id = p_id;
             this.nom = p_nom;
             this.prix = p_prix;
             this.reference = p_reference;
@@ -21,11 +21,11 @@ namespace MaBibliotheque
             this.type = p_type;
         }
 
-        //public int Id
-        //{
-        //    get { return id; }
-        //    set { id = value; }
-        //}
+        public int Id
+        {
+           get { return id; }
+           set { id = value; }
+       }
         public string Prix
         {
             get { return prix; }
