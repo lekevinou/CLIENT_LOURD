@@ -39,6 +39,23 @@ namespace Client_LOURD
             //Configuration du socket
             sck = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
             sck.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
+
+            //Get local IP
+            textBoxLocalP.Text = GetLocalIP();
+            textBoxRemoteIP.Text = GetLocalIP();
+
+        }
+        private string GetLocalIP()
+        {
+            IPHostEntry host;
+            host = Dns.GetHostEntry(Dns.GetHostName());
+            foreach (IPAddress ip in host.AddressList)
+            {
+                if (ip.AddressFamily == AddressFamily.InterNetwork)
+                    return ip.ToString();
+            }
+            return "127.0.0.1";
+
         }
     }
 }
