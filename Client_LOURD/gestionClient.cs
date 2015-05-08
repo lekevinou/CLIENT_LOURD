@@ -19,7 +19,7 @@ namespace Client_LOURD
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Ouverture de la page GestionEquipementVue.cs.
+            // Ouverture de la page Index.cs.
             Index f = new Index();
             this.Hide();
             f.ShowDialog();
@@ -37,7 +37,7 @@ namespace Client_LOURD
         }
         private void vueClient_btn_Click(object sender, EventArgs e)
         {
-            // Ouverture de la page viewClient.cs.
+            // Ouverture de la page gestionClientView.cs.
             gestionClientView f = new gestionClientView();
             this.Hide();
             f.ShowDialog();
