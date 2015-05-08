@@ -65,5 +65,15 @@ namespace Client_LOURD
             // Fermeture de la fenêtre actuelle.
             this.Close();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            // Ouverture le la gestion des client
+            chat f = new chat();
+            this.Hide();
+            f.ShowDialog();
+            // Fermeture de la fenêtre actuelle.
+            this.Close();
+        }
     }
 }
