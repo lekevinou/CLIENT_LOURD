@@ -59,6 +59,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="chat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="chat.Designer.cs">
+      <DependentUpon>chat.cs</DependentUpon>
+    </Compile>
     <Compile Include="VueJournee.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     <Compile Include="viewClientReservation.Designer.cs">
       <DependentUpon>viewClientReservation.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="chat.resx">
+      <DependentUpon>chat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gestionClientAjout.resx">
       <DependentUpon>gestionClientAjout.cs</DependentUpon>
     </EmbeddedResource>

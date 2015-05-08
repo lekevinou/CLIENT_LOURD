@@ -131,3 +131,4 @@ D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClientView.resour
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.chat.resources
