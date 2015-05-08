@@ -46,126 +46,140 @@
             // 
             // quitter
             // 
-            this.quitter.Location = new System.Drawing.Point(218, 227);
+            this.quitter.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.quitter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.quitter.Location = new System.Drawing.Point(254, 227);
             this.quitter.Name = "quitter";
-            this.quitter.Size = new System.Drawing.Size(75, 23);
+            this.quitter.Size = new System.Drawing.Size(87, 23);
             this.quitter.TabIndex = 0;
             this.quitter.Text = "Retour";
-            this.quitter.UseVisualStyleBackColor = true;
+            this.quitter.UseVisualStyleBackColor = false;
             this.quitter.Click += new System.EventHandler(this.quitter_Click);
             // 
             // prenom_client
             // 
             this.prenom_client.AutoSize = true;
-            this.prenom_client.Location = new System.Drawing.Point(12, 29);
+            this.prenom_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prenom_client.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.prenom_client.Location = new System.Drawing.Point(14, 29);
             this.prenom_client.Name = "prenom_client";
-            this.prenom_client.Size = new System.Drawing.Size(43, 13);
+            this.prenom_client.Size = new System.Drawing.Size(49, 13);
             this.prenom_client.TabIndex = 1;
             this.prenom_client.Text = "Prénom";
             // 
             // nom_client
             // 
             this.nom_client.AutoSize = true;
-            this.nom_client.Location = new System.Drawing.Point(12, 57);
+            this.nom_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nom_client.Location = new System.Drawing.Point(14, 57);
             this.nom_client.Name = "nom_client";
-            this.nom_client.Size = new System.Drawing.Size(29, 13);
+            this.nom_client.Size = new System.Drawing.Size(32, 13);
             this.nom_client.TabIndex = 2;
             this.nom_client.Text = "Nom";
             // 
             // adresse1_client
             // 
             this.adresse1_client.AutoSize = true;
-            this.adresse1_client.Location = new System.Drawing.Point(12, 85);
+            this.adresse1_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adresse1_client.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.adresse1_client.Location = new System.Drawing.Point(14, 85);
             this.adresse1_client.Name = "adresse1_client";
-            this.adresse1_client.Size = new System.Drawing.Size(54, 13);
+            this.adresse1_client.Size = new System.Drawing.Size(63, 13);
             this.adresse1_client.TabIndex = 3;
             this.adresse1_client.Text = "Adresse 1";
             // 
             // adresse2_client
             // 
             this.adresse2_client.AutoSize = true;
-            this.adresse2_client.Location = new System.Drawing.Point(12, 113);
+            this.adresse2_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adresse2_client.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.adresse2_client.Location = new System.Drawing.Point(14, 113);
             this.adresse2_client.Name = "adresse2_client";
-            this.adresse2_client.Size = new System.Drawing.Size(112, 13);
+            this.adresse2_client.Size = new System.Drawing.Size(135, 13);
             this.adresse2_client.TabIndex = 4;
             this.adresse2_client.Text = "Adresse 2 (facultative)";
             // 
             // tel_client
             // 
             this.tel_client.AutoSize = true;
-            this.tel_client.Location = new System.Drawing.Point(12, 141);
+            this.tel_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tel_client.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.tel_client.Location = new System.Drawing.Point(14, 141);
             this.tel_client.Name = "tel_client";
-            this.tel_client.Size = new System.Drawing.Size(58, 13);
+            this.tel_client.Size = new System.Drawing.Size(67, 13);
             this.tel_client.TabIndex = 5;
             this.tel_client.Text = "Telephone";
             // 
             // prenomClient
             // 
-            this.prenomClient.Location = new System.Drawing.Point(129, 26);
+            this.prenomClient.Location = new System.Drawing.Point(150, 26);
             this.prenomClient.Name = "prenomClient";
-            this.prenomClient.Size = new System.Drawing.Size(164, 20);
+            this.prenomClient.Size = new System.Drawing.Size(191, 20);
             this.prenomClient.TabIndex = 6;
             // 
             // nomClient
             // 
-            this.nomClient.Location = new System.Drawing.Point(129, 56);
+            this.nomClient.Location = new System.Drawing.Point(150, 56);
             this.nomClient.Name = "nomClient";
-            this.nomClient.Size = new System.Drawing.Size(164, 20);
+            this.nomClient.Size = new System.Drawing.Size(191, 20);
             this.nomClient.TabIndex = 7;
             // 
             // adr1Client
             // 
-            this.adr1Client.Location = new System.Drawing.Point(129, 86);
+            this.adr1Client.Location = new System.Drawing.Point(150, 86);
             this.adr1Client.Name = "adr1Client";
-            this.adr1Client.Size = new System.Drawing.Size(164, 20);
+            this.adr1Client.Size = new System.Drawing.Size(191, 20);
             this.adr1Client.TabIndex = 8;
             // 
             // adr2Client
             // 
-            this.adr2Client.Location = new System.Drawing.Point(129, 116);
+            this.adr2Client.Location = new System.Drawing.Point(150, 116);
             this.adr2Client.Name = "adr2Client";
-            this.adr2Client.Size = new System.Drawing.Size(164, 20);
+            this.adr2Client.Size = new System.Drawing.Size(191, 20);
             this.adr2Client.TabIndex = 9;
             // 
             // telClient
             // 
-            this.telClient.Location = new System.Drawing.Point(129, 146);
+            this.telClient.Location = new System.Drawing.Point(150, 146);
             this.telClient.Name = "telClient";
-            this.telClient.Size = new System.Drawing.Size(164, 20);
+            this.telClient.Size = new System.Drawing.Size(191, 20);
             this.telClient.TabIndex = 10;
             // 
             // mailClient
             // 
-            this.mailClient.Location = new System.Drawing.Point(129, 176);
+            this.mailClient.Location = new System.Drawing.Point(150, 176);
             this.mailClient.Name = "mailClient";
-            this.mailClient.Size = new System.Drawing.Size(164, 20);
+            this.mailClient.Size = new System.Drawing.Size(191, 20);
             this.mailClient.TabIndex = 11;
             // 
             // mail_client
             // 
             this.mail_client.AutoSize = true;
-            this.mail_client.Location = new System.Drawing.Point(12, 176);
+            this.mail_client.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mail_client.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.mail_client.Location = new System.Drawing.Point(14, 176);
             this.mail_client.Name = "mail_client";
-            this.mail_client.Size = new System.Drawing.Size(66, 13);
+            this.mail_client.Size = new System.Drawing.Size(78, 13);
             this.mail_client.TabIndex = 12;
             this.mail_client.Text = "Adresse mail";
             // 
             // ajouter
             // 
-            this.ajouter.Location = new System.Drawing.Point(129, 227);
+            this.ajouter.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ajouter.Location = new System.Drawing.Point(150, 227);
             this.ajouter.Name = "ajouter";
-            this.ajouter.Size = new System.Drawing.Size(75, 23);
+            this.ajouter.Size = new System.Drawing.Size(87, 23);
             this.ajouter.TabIndex = 13;
             this.ajouter.Text = "Ajouter";
-            this.ajouter.UseVisualStyleBackColor = true;
+            this.ajouter.UseVisualStyleBackColor = false;
             this.ajouter.Click += new System.EventHandler(this.ajouter_Click);
             // 
-            // ajoutClient
+            // gestionClientAjout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(336, 262);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(371, 268);
             this.Controls.Add(this.ajouter);
             this.Controls.Add(this.mail_client);
             this.Controls.Add(this.mailClient);
@@ -180,8 +194,9 @@
             this.Controls.Add(this.nom_client);
             this.Controls.Add(this.prenom_client);
             this.Controls.Add(this.quitter);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Name = "ajoutClient";
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Name = "gestionClientAjout";
             this.Text = "Ajouter un client";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

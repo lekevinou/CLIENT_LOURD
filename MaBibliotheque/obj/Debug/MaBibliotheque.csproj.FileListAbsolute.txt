@@ -23,3 +23,8 @@ E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
 E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
 E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
 E:\CLIENT_LOURD\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\GIT\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\GIT\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\GIT\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\GIT\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\GIT\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
