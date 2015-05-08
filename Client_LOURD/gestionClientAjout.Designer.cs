@@ -42,13 +42,14 @@
             this.mailClient = new System.Windows.Forms.TextBox();
             this.mail_client = new System.Windows.Forms.Label();
             this.ajouter = new System.Windows.Forms.Button();
+            this.btn_VoirClients = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // quitter
             // 
             this.quitter.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.quitter.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.quitter.Location = new System.Drawing.Point(254, 227);
+            this.quitter.Location = new System.Drawing.Point(254, 249);
             this.quitter.Name = "quitter";
             this.quitter.Size = new System.Drawing.Size(87, 23);
             this.quitter.TabIndex = 0;
@@ -166,7 +167,7 @@
             // ajouter
             // 
             this.ajouter.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ajouter.Location = new System.Drawing.Point(150, 227);
+            this.ajouter.Location = new System.Drawing.Point(254, 224);
             this.ajouter.Name = "ajouter";
             this.ajouter.Size = new System.Drawing.Size(87, 23);
             this.ajouter.TabIndex = 13;
@@ -174,12 +175,24 @@
             this.ajouter.UseVisualStyleBackColor = false;
             this.ajouter.Click += new System.EventHandler(this.ajouter_Click);
             // 
+            // btn_VoirClients
+            // 
+            this.btn_VoirClients.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.btn_VoirClients.Location = new System.Drawing.Point(150, 224);
+            this.btn_VoirClients.Name = "btn_VoirClients";
+            this.btn_VoirClients.Size = new System.Drawing.Size(89, 48);
+            this.btn_VoirClients.TabIndex = 14;
+            this.btn_VoirClients.Text = "Voir les clients";
+            this.btn_VoirClients.UseVisualStyleBackColor = false;
+            this.btn_VoirClients.Click += new System.EventHandler(this.btn_VoirClients_Click);
+            // 
             // gestionClientAjout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(371, 268);
+            this.ClientSize = new System.Drawing.Size(357, 287);
+            this.Controls.Add(this.btn_VoirClients);
             this.Controls.Add(this.ajouter);
             this.Controls.Add(this.mail_client);
             this.Controls.Add(this.mailClient);
@@ -220,6 +233,7 @@
         private System.Windows.Forms.TextBox mailClient;
         private System.Windows.Forms.Label mail_client;
         private System.Windows.Forms.Button ajouter;
+        private System.Windows.Forms.Button btn_VoirClients;
     }
 }
 

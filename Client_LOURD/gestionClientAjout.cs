@@ -57,6 +57,16 @@ namespace Client_LOURD
                 MessageBox.Show("Le client a été ajouté avec succès");
                 this.Close();
             }
+        }
+
+        private void btn_VoirClients_Click(object sender, EventArgs e)
+        {
+            // Ouverture de la page GestionClientView.cs
+            gestionClientView f = new gestionClientView();
+            this.Hide();
+            // Fermeture de la page actuelle.
+            f.ShowDialog();
+            this.Close();
         } 
     }
 }
