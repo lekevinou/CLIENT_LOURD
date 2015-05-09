@@ -57,5 +57,40 @@ namespace Client_LOURD
             return "127.0.0.1";
 
         }
+
+        private void btn_Connect_Click(object sender, EventArgs e)
+        {
+            //Binding socket
+            epLocal = new IPEndPoint(IPAddress.Parse(textBoxLocalP.Text), Convert.ToInt32(textBoxLocalPort.Text));
+            sck.Bind(epLocal);
+            //Connection avec le remote IP
+            epRemote = new IPEndPoint(IPAddress.Parse(textBoxRemoteIP.Text), Convert.ToInt32(textBoxRemotePort.Text));
+            sck.Connect(epRemote);  
+            //Ecouter le port specifique
+            buffer = new byte[1500];
+            sck.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref epRemote, new AsyncCallback(MessageCallBack), buffer);
+        }
+        private void MessageCallBack(IAsyncResult aResult)
+        {
+            try
+            {          
+                byte[] receivedData = new byte[1500];
+                receivedData = (byte[])aResult.AsyncState;
+                //Convertion byte[] to string
+                ASCIIEncoding aEncoding = new ASCIIEncoding();
+                string receivedMessage = aEncoding.GetString(receivedData);
+
+                //Adding this message into listBox blabla
+                listBoxMessage.Items.Add("Destinataire: " + receivedMessage);
+
+                buffer = new byte[1500];
+                sck.BeginReceiveFrom(buffer, 0, buffer.Length, SocketFlags.None, ref epRemote, new AsyncCallback(MessageCallBack), buffer);
+            }
+            catch(Exception ex)
+            {
+            MessageBox.Show(ex.ToString());
+    
+            }
+        }
     }
 }
