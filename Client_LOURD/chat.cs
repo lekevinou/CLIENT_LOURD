@@ -31,6 +31,15 @@ namespace Client_LOURD
 
         private void btn_Send_Click(object sender, EventArgs e)
         {
+            //Convert string message to byte[]
+            ASCIIEncoding aEncoding = new ASCIIEncoding();
+            byte[] sendingMessage = new byte[1500];
+            sendingMessage = aEncoding.GetBytes(textBoxMessage.Text);
+            //Sending the encoded message
+            sck.Send(sendingMessage);
+            //Adding to the listbox
+            listBoxMessage.Items.Add("Me: " + textBoxMessage.Text);
+            textBoxMessage.Text = "";
 
         }
 
