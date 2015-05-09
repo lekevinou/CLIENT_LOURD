@@ -83,7 +83,6 @@ D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_L
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.gestionClient.resources
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipement.resources
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementAjout.resources
-D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.GestionEquipementVue.resources
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Index.resources
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.login.resources
 D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.Properties.Resources.resources
@@ -132,3 +131,5 @@ D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.re
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
 D:\GIT\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.chat.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.chat.resources
+D:\Documents\Thomas\Documents\Cours\CLIENT_LOURD\Client_LOURD\obj\Debug\Client_LOURD.btnAjouterEquipement.resources
