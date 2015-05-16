@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A2779B6-FF2C-442E-A256-805CA617468F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Client_LOURD</RootNamespace>
+    <AssemblyName>Client_LOURD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publier\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ajoutReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ajoutReservation.designer.cs">
+      <DependentUpon>ajoutReservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gamilonbaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gamilonbaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionClientSuppr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClientSuppr.Designer.cs">
+      <DependentUpon>gestionClientSuppr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestionClientModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClientAjout - Copier.Designer.cs">
+      <DependentUpon>gestionClientModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VueJournee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VueJournee.Designer.cs">
+      <DependentUpon>VueJournee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestionClientAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClientAjout.Designer.cs">
+      <DependentUpon>gestionClientAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equipement.cs" />
+    <Compile Include="equipementManager.cs" />
+    <Compile Include="gestionClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClient.Designer.cs">
+      <DependentUpon>gestionClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipement.Designer.cs">
+      <DependentUpon>GestionEquipement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipementAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipementAjout.Designer.cs">
+      <DependentUpon>GestionEquipementAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionEquipementVue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionEquipementVue.Designer.cs">
+      <DependentUpon>GestionEquipementVue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="gestionClientView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gestionClientView.Designer.cs">
+      <DependentUpon>gestionClientView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewClientReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewClientReservation.Designer.cs">
+      <DependentUpon>viewClientReservation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ajoutReservation.resx">
+      <DependentUpon>ajoutReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionClientModif.resx">
+      <DependentUpon>gestionClientModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionClientSuppr.resx">
+      <DependentUpon>gestionClientSuppr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionClientAjout.resx">
+      <DependentUpon>gestionClientAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gestionClient.resx">
+      <DependentUpon>gestionClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipement.resx">
+      <DependentUpon>GestionEquipement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipementAjout.resx">
+      <DependentUpon>GestionEquipementAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionEquipementVue.resx">
+      <DependentUpon>GestionEquipementVue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="gestionClientView.resx">
+      <DependentUpon>gestionClientView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewClientReservation.resx">
+      <DependentUpon>viewClientReservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VueJournee.resx">
+      <DependentUpon>VueJournee.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="gamilonbaseDataSet1.xsc">
+      <DependentUpon>gamilonbaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gamilonbaseDataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gamilonbaseDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="gamilonbaseDataSet1.xss">
+      <DependentUpon>gamilonbaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MaBibliotheque\MaBibliotheque.csproj">
+      <Project>{4a1a48ac-704e-4dc6-8cea-1cfd13b33746}</Project>
+      <Name>MaBibliotheque</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoGamilon.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
