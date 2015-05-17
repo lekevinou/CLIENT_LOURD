@@ -39,6 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="equipement.cs" />
+    <Compile Include="equipementManager.cs" />
     <Compile Include="Service References\bdd.cs" />
     <Compile Include="client.cs" />
     <Compile Include="clientManager.cs" />
