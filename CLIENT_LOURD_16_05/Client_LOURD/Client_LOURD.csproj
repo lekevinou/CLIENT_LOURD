@@ -94,6 +94,11 @@
     <Compile Include="gestionClientAjout.Designer.cs">
       <DependentUpon>gestionClientAjout.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="equipement.cs" />
+    <Compile Include="equipementManager.cs" />
+>>>>>>> a7e764182f1d35c2472e1beccec81bae7629f7ca
     <Compile Include="gestionClient.cs">
       <SubType>Form</SubType>
     </Compile>

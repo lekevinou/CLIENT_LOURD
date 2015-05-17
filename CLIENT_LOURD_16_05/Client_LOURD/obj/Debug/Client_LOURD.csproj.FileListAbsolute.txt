@@ -97,6 +97,7 @@ D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LO
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\bin\Debug\Client_LOURD.exe.config
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.exe
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.pdb
@@ -120,3 +121,5 @@ D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.gesti
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.viewClientReservation.resources
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.VueJournee.resources
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\Client_LOURD\obj\Debug\Client_LOURD.csproj.GenerateResource.Cache
+=======
+>>>>>>> a7e764182f1d35c2472e1beccec81bae7629f7ca

@@ -39,8 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="equipement.cs" />
     <Compile Include="equipementManager.cs" />
+=======
+>>>>>>> a7e764182f1d35c2472e1beccec81bae7629f7ca
     <Compile Include="Service References\bdd.cs" />
     <Compile Include="client.cs" />
     <Compile Include="clientManager.cs" />

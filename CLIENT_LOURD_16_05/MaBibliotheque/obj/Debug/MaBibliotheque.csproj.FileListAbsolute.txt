@@ -18,8 +18,11 @@ D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\bin\Debug\MaBibli
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.dll
 D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+<<<<<<< HEAD
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
 D:\GIT\CLIENT_LOURD\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+=======
+>>>>>>> a7e764182f1d35c2472e1beccec81bae7629f7ca
