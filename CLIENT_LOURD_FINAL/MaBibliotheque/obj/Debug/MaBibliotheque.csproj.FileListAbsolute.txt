@@ -1,0 +1,50 @@
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\Client_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+E:\CLIENT_LOURD\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+C:\Users\Kevin\Documents\Visual Studio 2013\Projects\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD05042015\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+C:\Users\Antoine\Documents\Visual Studio 2013\Projects\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+C:\Users\Antoine\Documents\Visual Studio 2013\Projects\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+C:\Users\Antoine\Documents\Visual Studio 2013\Projects\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Visual Studio 2013\Projects\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+C:\Users\Antoine\Documents\Visual Studio 2013\Projects\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\FINAL\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\FINAL\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\FINAL\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\bureau\FINAL\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\FINAL\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05 - Copie\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05 - Copie\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05 - Copie\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05 - Copie\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_16_05 - Copie\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\MaBibliotheque\obj\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_FINAL\MaBibliotheque\bin\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_FINAL\MaBibliotheque\bin\Debug\MaBibliotheque.pdb
+D:\Documents\Thomas\bureau\CLIENT_LOURD_FINAL\MaBibliotheque\obj\Debug\MaBibliotheque.csprojResolveAssemblyReference.cache
+D:\Documents\Thomas\bureau\CLIENT_LOURD_FINAL\MaBibliotheque\obj\Debug\MaBibliotheque.dll
+D:\Documents\Thomas\bureau\CLIENT_LOURD_FINAL\MaBibliotheque\obj\Debug\MaBibliotheque.pdb

@@ -1,0 +1,5 @@
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\CodedUITestProject1\bin\Debug\CodedUITestProject1.pdb
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\CodedUITestProject1\obj\Debug\CodedUITestProject1.csprojResolveAssemblyReference.cache
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\CodedUITestProject1\obj\Debug\CodedUITestProject1.dll
+D:\EpsiB2\ClientLourd\CLIENT_LOURD_16_05\CLIENT_LOURD_16_05\CodedUITestProject1\obj\Debug\CodedUITestProject1.pdb
